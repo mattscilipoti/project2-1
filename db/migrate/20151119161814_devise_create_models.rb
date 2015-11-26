@@ -1,5 +1,6 @@
 class DeviseCreateModels < ActiveRecord::Migration
   def change
+    # mms: this looks vaguely familiar :)  Don't forget tp clean up as you go, just like in the kitchen.
     create_table(:models) do |t|
       ## Database authenticatable
       t.string :email,              null: false, default: ""
